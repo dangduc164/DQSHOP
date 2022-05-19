@@ -611,6 +611,7 @@ a:hover {
 }
 
 .zoom-img:hover {
+    cursor: pointer;
     transform: scale(1.6, 1.6);
     -webkit-transform: scale(1.6, 1.6);
     -moz-transform: scale(1.6, 1.6);
@@ -838,8 +839,15 @@ a:hover {
 }
 
 .footer_logo {
-    width: 100%;
     text-align: center;
+}
+
+.footer_logo b {
+    color: #fff;
+}
+
+.footer_logo b:hover {
+    color: #f26522;
 }
 
 .input_bt {
@@ -969,5 +977,17 @@ input.mail_bt::placeholder {
     margin-top: 90px;
 }
 
-
-/* copyright section end */
+#backtop {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f26522;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
