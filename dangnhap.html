@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sliding Form - Niemvuilaptrinh.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon-16x16.png" type="image/gif" />
+    <link rel="stylesheet" href="./css/dangnhap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-text">
+            <div class="title login">Đăng Nhập</div>
+            <div class="title signup">Đăng Ký</div>
+            <div class="title signup">Quên MK</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked />
+                <input type="radio" name="slide" id="signup" />
+                <input type="radio" name="slide" id="forget" />
+
+                <label for="login" class="slide login">Đăng Nhập</label>
+                <label for="signup" class="slide signup">Đăng Ký</label>
+                <label for="forget" class="slide forget">Quên MK</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Địa Chỉ Email" required />
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Mật Khẩu" required />
+                    </div>
+                    <div class="pass-link">
+                        <a href="">Quên Mật Khẩu?</a>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Đăng Nhập" />
+                    </div>
+                    <div class="signup-link">
+                        Chưa Có Tài Khoản? <a href=""> Đăng Ký Ngay</a>
+                    </div>
+                </form>
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Nhập Email" required />
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Nhập Mật Khẩu" required />
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Nhập Lại Mật Khẩu" required />
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value=" Đăng Ký" />
+                    </div>
+                </form>
+
+                <form action="#" class="forget">
+                    <div class="field">
+                        <input type="text" placeholder="Nhập Email" required />
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value=" Đăng Ký" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="backhome">
+        <a href="./index.html"><i class="fa-solid fa-house-user fa-3x"></i></a>
+    </div>
+</body>
+
+<script src="./js/dangnhap.js"></script>
+
+</html>

@@ -207,9 +207,6 @@ button {
     padding: 0px;
 }
 
-
-/* banner bg main start */
-
 .banner_bg_main {
     width: 100%;
     float: left;
@@ -218,12 +215,6 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
-
-/* banner bg main end */
-
-
-/* header top section start */
 
 .header_section_top {
     width: 100%;
@@ -261,12 +252,6 @@ button {
     color: #f26522;
 }
 
-
-/* header top section end */
-
-
-/* logo section start */
-
 .logo_section {
     width: 100%;
     float: left;
@@ -277,12 +262,6 @@ button {
     padding: 30px 0px;
 }
 
-
-/* logo section end */
-
-
-/* header section start */
-
 .header_section {
     width: 100%;
     display: flex;
@@ -291,9 +270,6 @@ button {
 .containt_main {
     display: flex;
 }
-
-
-/* opennav bar start */
 
 .sidenav {
     height: 100%;
@@ -381,21 +357,12 @@ button {
     box-shadow: none;
 }
 
-
-/* opennav bar end */
-
-
-/* Styles for wrapping the search box start */
-
 .main {
     flex: 1;
     margin: 0px 30px;
     display: inline-block;
     order: 2;
 }
-
-
-/* Bootstrap 4 text input with search icon */
 
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -412,9 +379,6 @@ button {
     pointer-events: none;
     color: #aaa;
 }
-
-
-/* Styles for wrapping the search box end */
 
 .login_menu {
     display: flex;
@@ -448,9 +412,6 @@ button {
     padding-left: 10px;
 }
 
-
-/* flage css start */
-
 .lang_box {
     display: flex;
     float: right;
@@ -468,15 +429,6 @@ a:hover {
     color: #f26522;
     text-decoration: underline;
 }
-
-
-/* flage css end */
-
-
-/* header section end */
-
-
-/* banner section start */
 
 .banner_section {
     width: 100%;
@@ -544,12 +496,6 @@ a:hover {
 #my_slider .carousel-control-prev:hover {
     color: #fff;
 }
-
-
-/* banner section end */
-
-
-/* fashion section start */
 
 .fashion_section {
     width: 100%;
@@ -690,12 +636,6 @@ a:hover {
     background-color: #f26522;
 }
 
-
-/* fashion section end */
-
-
-/* electronic section start */
-
 .electronic_img {
     width: 100%;
     text-align: center;
@@ -730,12 +670,6 @@ a:hover {
     color: #fff;
     background-color: #f26522;
 }
-
-
-/* electronic section end */
-
-
-/* jewellery section start */
 
 .jewellery_section {
     width: 100%;
@@ -778,9 +712,6 @@ a:hover {
     background-color: #f26522;
 }
 
-
-/* loader bar css start */
-
 .loader_main {
     width: 100%;
     text-align: center;
@@ -818,18 +749,6 @@ a:hover {
         transform: rotate(360deg);
     }
 }
-
-
-/* loader bar css end */
-
-
-/* jewellery section end */
-
-
-/* footer section start */
-
-
-/* footer section start */
 
 .footer_section {
     width: 100%;
@@ -942,12 +861,6 @@ input.mail_bt::placeholder {
 .location_main a:hover {
     color: #f26522;
 }
-
-
-/* footer section end */
-
-
-/* copyright section start */
 
 .copyright_section {
     width: 100%;
