@@ -245,6 +245,7 @@ form .btn input[type="submit"] {
     position: fixed;
     bottom: 40px;
     right: 20px;
+    s
 }
 
 .backhome a {
@@ -255,3 +256,5 @@ form .btn input[type="submit"] {
     background-color: brown;
     opacity: 0.8;
 }
+
+@media screen and () {}
