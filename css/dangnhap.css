@@ -233,8 +233,8 @@ form .btn input[type="submit"] {
 }
 
 .backhome {
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     color: #fff;
     cursor: pointer;
     background-color: #f26522;
