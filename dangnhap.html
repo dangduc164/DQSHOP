@@ -30,25 +30,25 @@
                 <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-                <form action="#" class="login">
+                <form action="xulylogin.php" method="post" class="login">
                     <div class="field">
-                        <input type="text" placeholder="Địa Chỉ Email" required />
+                        <input type="text" placeholder="Địa Chỉ Email" id="user" name="user" />
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Mật Khẩu" required />
+                        <input type="password" placeholder="Mật Khẩu" id="pass" name="pass" />
                     </div>
                     <div class="pass-link">
                         <a href="">Quên Mật Khẩu?</a>
                     </div>
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                        <input type="submit" value="Đăng Nhập" />
+                        <input type="submit" value="Đăng Nhập" onclick="login()" />
                     </div>
                     <div class="signup-link">
                         Chưa Có Tài Khoản? <a href=""> Đăng Ký Ngay</a>
                     </div>
                 </form>
-                <form action="#" class="signup">
+                <form action="" class="signup">
                     <div class="field">
                         <input type="text" placeholder="Nhập Email" required />
                     </div>
@@ -64,7 +64,7 @@
                     </div>
                 </form>
 
-                <form action="#" class="forget">
+                <form action="" class="forget">
                     <div class="field">
                         <input type="text" placeholder="Nhập Email" required />
                     </div>
@@ -80,7 +80,10 @@
 <div class="backhome">
     <a href="./index.html"><i class="fa-solid fa-house-user fa-2x"></i></a>
 </div>
+<script src="./node_modules/sweetalert2/dist/sweetalert2.js"></script>
 
 <script src="./js/dangnhap.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/jquery-3.0.0.min.js"></script>
 
 </html>

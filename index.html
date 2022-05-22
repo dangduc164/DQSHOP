@@ -87,6 +87,8 @@
                             <a href="./male.html">Đồ Thể Thao Nam</a>
                             <a href="./giay.html">Giầy Thể Thao</a>
                             <a href="./contacts.html">Liên Hệ</a>
+                            <a href="./dangnhap.html">Đăng Nhập</a>
+
                         </div>
                         <span class="toggle_icon" onclick="openNav()"><i class="fas fa-bars fa-3x"></i
               ></span>
@@ -126,18 +128,11 @@
                             <div class="login_menu">
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                            <span class="padding_10">Giỏ Hàng</span></a>
+                                        <input type="button" value="Giỏ Hàng" class="btn btn-outline-danger text-white" />
                                     </li>
                                     <li>
-                                        <a href="./dangnhap.html" onclick="document.getElementById('#id01')">
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <span class="padding_10">Đăng Nhập</span></a>
+                                        <a href="./dangnhap.html"><input type="button" value="Đăng Nhập" class="btn btn-outline-danger text-white" /></a>
 
-                                        <div id="id01">
-
-                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -213,7 +208,7 @@
                                                     <img class="zoom-img" class="zoom-img" src="./images/img-female/sp1.png" />
                                                 </div>
                                                 <div class="btn_main">
-                                                    <div class="buy_bt"><a href="#">Mua ngay</a></div>
+                                                    <div class="buy_bt"><a href="#" onclick="addcart()">Mua ngay</a></div>
                                                     <div class="seemore_bt">
                                                         <a href="#product-pop-up">Xem thêm...</a>
                                                     </div>
@@ -230,7 +225,7 @@
                                                     <img class="zoom-img" class="zoom-img" src="./images/img-female/sp2.png" />
                                                 </div>
                                                 <div class="btn_main">
-                                                    <div class="buy_bt"><a href="#">Mua ngay</a></div>
+                                                    <div class="buy_bt"><a href="#" onclick="addcart()">Mua ngay</a></div>
                                                     <div class="seemore_bt">
                                                         <a href="#">Xem thêm...</a>
                                                     </div>
@@ -785,7 +780,7 @@
             </div>
         </div>
 
-        <div id="product-pop-up" style="display: none; width: 700px;">
+        <div id="addsp" style="display: none; width: 700px;">
             <div class="product-page product-pop-up">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-3">
@@ -894,6 +889,7 @@
     <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./js/custom.js"></script>
     <script src="./js/backtop.js"></script>
+    <script src="./js/addsp.js"></script>
     <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
