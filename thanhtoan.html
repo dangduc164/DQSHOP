@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" class="h-100">
+<html lang="en">
 
 <head>
     <!-- basic -->
@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <!-- Responsive-->
     <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/thanhtoan.css" />
     <!-- favicon -->
     <link rel="icon" href="./images/favicon-16x16.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
@@ -82,13 +83,12 @@
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a
                 >
-                            <a href="./index.html">Trang Chủ</a>
+                <a href="./index.html">Trang Chủ</a>
                             <a href="./famale.html">Đồ Thể Thao Nữ</a>
                             <a href="./male.html">Đồ Thể Thao Nam</a>
                             <a href="./giay.html">Giầy Thể Thao</a>
                             <a href="./contacts.html">Liên Hệ</a>
                             <a href="./dangnhap.html">Đăng Nhập</a>
-
                         </div>
                         <span class="toggle_icon" onclick="openNav()"><i class="fas fa-bars fa-3x"></i
               ></span>
@@ -132,7 +132,6 @@
                                     </li>
                                     <li>
                                         <a href="./dangnhap.html"><input type="button" value="Đăng Nhập" class="btn btn-outline-danger text-white" /></a>
-
                                     </li>
                                 </ul>
                             </div>
@@ -187,99 +186,33 @@
             </div>
         </div>
     </header>
-
     <main>
-        <div class="container py-5">
-            <div id="thongbao" class="alert alert-danger d-none face" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-            </div>
-
-            <div class="text-danger py-5 h1"><b> Giỏ hàng</b></div>
-            <div class="row">
-                <div class="col col-md-12">
-                    <table class="table table-bordered text-center">
-                        <thead>
-                            <tr>
-                                <th>STT</th>
-                                <th>Ảnh đại diện</th>
-                                <th>Tên sản phẩm</th>
-                                <th>Số lượng</th>
-                                <th>Đơn giá</th>
-                                <th>Thành tiền</th>
-                                <th>Hành động</th>
-                            </tr>
-                        </thead>
-                        <tbody id="datarow">
-                            <tr>
-                                <td>1</td>
-                                <td>
-                                    <img src="./images/img-female/sp4.png" width="150px" height="150px" class="hinhdaidien" />
-                                </td>
-                                <td>Áo Bra</td>
-                                <td class="text-right">1</td>
-                                <td class="text-right">$ 2</td>
-                                <td class="text-right">$ 2</td>
-                                <td>
-                                    <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
-                                    <input type="button" value="xóa" id="delete" class="btn btn-danger">
-                                    </input>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>
-                                    <img src="./images/img-female/ao-croptop-luoi.png" width="150px" height="150px" class="hinhdaidien" />
-                                </td>
-                                <td>Áo croptop lưới cao cấp</td>
-                                <td class="text-right">1</td>
-                                <td class="text-right">$ 10</td>
-                                <td class="text-right">$ 10</td>
-                                <td>
-                                    <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
-                                    <input type="button" value="xóa" id="delete" class="btn btn-danger">
-                                    </input>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>
-                                    <img src="./images/img-shoes/shoes1.jpg" width="150px" height="150px" class="hinhdaidien" />
-                                </td>
-                                <td>Sản phẩm 1</td>
-                                <td class="text-right">1</td>
-                                <td class="text-right">$ 20</td>
-                                <td class="text-right">$ 20</td>
-                                <td>
-                                    <!-- Nút xóa, bấm vào sẽ xóa thông tin dựa vào khóa chính `sp_ma` -->
-                                    <input type="button" value="xóa" id="delete" class="btn btn-danger">
-                                    </input>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <a href="./index.html" class="btn btn-warning btn-md"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Quay về
-              trang chủ</a
-            >
-            <a href="./thanhtoan.html" class="btn btn-primary btn-md"
-              ><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Thanh
-              toán</a
-            >
-          </div>
+        <div class="container">
+            <h1 class="text-danger"><b>THANH TOÁN</b></h1>
+            <form action="#" method="" class="text-center p-5 py-5">
+                <input type="text" id="name" name="name" placeholder="Họ và tên" />
+                <input type="text" id="diachi" name="diachi" placeholder="Địa chỉ" />
+                <ul>
+                    <li>
+                        Phương thức thanh toán
+                        <select>
+                <option value="thanh toán tại nhà">
+                  thanh toán khi nhận hàng
+                </option>
+                <option value="thanh toán online">thanh toán online</option>
+              </select>
+                    </li>
+                </ul>
+            </form>
         </div>
-      </div>
-      <!-- End block content -->
     </main>
 
-    <!-- footer -->
     <footer>
-      <div class="footer_section layout_padding">
-        <div class="container">
-          <div class="footer_logo">
-            <h1>
-              <a href="index.html"><b>ĐQ.SHOP</b></a>
+        <div class="footer_section layout_padding">
+            <div class="container">
+                <div class="footer_logo">
+                    <h1>
+                        <a href="index.html"><b>ĐQ.SHOP</b></a>
                     </h1>
                 </div>
                 <div class="input_bt">
@@ -327,6 +260,7 @@
     <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./js/custom.js"></script>
     <script src="./js/backtop.js"></script>
+    <script src="./js/addsp.js"></script>
     <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
@@ -336,24 +270,5 @@
         document.getElementById("mySidenav").style.width = "0";
       }
     </script>
-
-    <!-- xóa -->
-    <script type="text/javascript">
-		window.onload= function(){
-			// lấy danh sách button
-			var button = document.getElementsByTagName('input');
-			// Lập qua từng button
-			for (var i = 0; i < button.length; i++) {
-
-				// gán sự kiện click
-				button[i].addEventListener("click",function(){
-					// lấy thẻ tr
-					var parent = this.parentElement.parentElement;
-					// thực hiện xóa
-					parent.remove();
-				});
-			}
-		}
-	</script>
   </body>
 </html>
