@@ -5,7 +5,7 @@ Web có 3 loại hàng
 3. Một số loại giày thể theo.
 
 
-# Những trang đã có
+# Những trang hiện có
 1. home
 2. login
 3. famale
